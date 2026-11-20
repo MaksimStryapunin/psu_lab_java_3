@@ -8,5 +8,5 @@ public interface sub_task {
     inputvalidator valid = new inputvalidator(scanner);
 
     default  void show_task() {}
-    default  void add_task() {}
+    default  void add_new() {}
 }
